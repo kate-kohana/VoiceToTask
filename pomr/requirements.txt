@@ -1,0 +1,37 @@
+# VoiceToTaskApp - Zavisimosti
+
+# BAZOVYE ZAVISIMOSTI
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.26.0
+sentencepiece>=0.1.99
+
+# WHISPER dlya transkribacii
+openai-whisper>=1.0.0
+pydub>=0.25.1
+
+# LLM MODELI
+huggingface-hub>=0.19.0
+
+# === DLYA ZAPISI S MIKROFONA ===
+sounddevice>=0.5.0
+scipy>=1.11.0
+
+# === DLYA BYSTROGO LLM NA CPU (Qwen 2.5) ===
+llama-cpp-python>=0.2.0
+
+# RABOTA S AUDIO
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# VSPOMOGATELNYE BIBLIOTEKI
+numpy>=1.24.0
+pyyaml>=6.0
+tqdm>=4.66.0
+
+# OPCIONALNO: dlya UI
+gradio>=4.0.0
+
+# OPCIONALNO: dlya testirovaniya
+pytest>=7.4.0
+pytest-cov>=4.1.0
